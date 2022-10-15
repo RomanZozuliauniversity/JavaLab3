@@ -1,16 +1,15 @@
 package Lab3;
 
-import battles.BattleMTM;
-import droids.Brave;
-import droids.Defender;
-import droids.Droid;
-import droids.RandomPower;
-import droids.Tricky;
+import battle.BattleMTM;
+import droid.Brave;
+import droid.Defender;
+import droid.Droid;
+import droid.RandomPower;
+import droid.Tricky;
 import java.io.FileNotFoundException;
 import java.io.IOException;
 import java.util.ArrayList;
 import java.util.HashMap;
-import java.util.Iterator;
 import java.util.Scanner;
 
 public class Lab3 {
@@ -73,7 +72,7 @@ public class Lab3 {
      */
     private static void playBattleFromFile(BattleMTM btlMTM) {
         try {
-            btlMTM.playBattle("/Users/irynavdovych/Desktop/lab3data/battle.txt");
+            btlMTM.playBattle("/Users/zz/Desktop/Lab3Data/battle.txt");
         } catch (FileNotFoundException e) {
             System.out.println("Не вдалося прочитати файл.\n");
         }
@@ -84,7 +83,7 @@ public class Lab3 {
      */
     private static void saveBattleToFile(BattleMTM btlMTM) {
         try {
-            btlMTM.saveBattle("/Users/irynavdovych/Desktop/lab3data/battle.txt");
+            btlMTM.saveBattle("/Users/zz/Desktop/Lab3Data/battle.txt1");
         } catch (IOException e) {
             System.out.println("Не вдалося записати файл.\n");
         }

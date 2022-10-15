@@ -1,14 +1,10 @@
 package random;
-
 import java.util.Random;
-
-
 /**
  * клас для генерації випадкових чисел
  */
 public class Rand {
     private Random rn = new Random();
-
     /**
      * генерує випадкове число у заданому діапазоні
      *
@@ -19,4 +15,3 @@ public class Rand {
         return rn.nextInt(maxNum);
     }
 }
-

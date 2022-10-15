@@ -1,6 +1,6 @@
-package droids;
+package droid;
 
-import java.util.ArrayList;
+import java.util.List;
 
 
 /**
@@ -18,7 +18,7 @@ public class Tricky extends Droid{
     }
 
     @Override
-    public Droid chooseOpponent(ArrayList<Droid> group) {
+    public Droid chooseOpponent(List<Droid> group) {
         Droid sel = null;
         int minHealth = Integer.MAX_VALUE;
         for(Droid d : group) {

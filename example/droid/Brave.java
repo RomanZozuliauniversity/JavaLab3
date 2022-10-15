@@ -1,7 +1,5 @@
-package droids;
-
-
-import java.util.ArrayList;
+package droid;
+import java.util.List;
 
 /**
  * class for creating a specific type of droid
@@ -18,7 +16,7 @@ public class Brave extends Droid{
     }
 
     @Override
-    public Droid chooseOpponent(ArrayList<Droid> group) {
+    public Droid chooseOpponent(List<Droid> group) {
         Droid sel = null;
         int maxHealth = Integer.MIN_VALUE;
         for(Droid d : group) {

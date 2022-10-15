@@ -1,8 +1,8 @@
-package droids;
+package droid;
 
-import java.util.ArrayList;
-import colors.ConsoleColors;
-import java.util.Iterator;
+import java.util.List;
+
+import color.ConsoleColors;
 
 /**
  * базовий клас для опису Дроїда
@@ -134,7 +134,7 @@ public class Droid {
     }
 
 
-    public Droid chooseOpponent(ArrayList<Droid> group) {
+    public Droid chooseOpponent(List<Droid> group) {
         for(Droid d : group) {
             if(!d.isAlive()) continue;
             return d;

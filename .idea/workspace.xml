@@ -4,13 +4,18 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d1e8fcab-2ef0-465a-9993-c879816de8a8" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lab3_pp.iml" afterDir="false" />
+    <list default="true" id="d1e8fcab-2ef0-465a-9993-c879816de8a8" name="Changes" comment="Lab3Droids">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/example/Lab3/Lab3.java" beforeDir="false" afterPath="$PROJECT_DIR$/example/Lab3/Lab3.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/example/battles/Attack.java" beforeDir="false" afterPath="$PROJECT_DIR$/example/battle/Attack.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/example/battles/BattleMTM.java" beforeDir="false" afterPath="$PROJECT_DIR$/example/battle/BattleMTM.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/example/colors/ConsoleColors.java" beforeDir="false" afterPath="$PROJECT_DIR$/example/color/ConsoleColors.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/example/droids/Brave.java" beforeDir="false" afterPath="$PROJECT_DIR$/example/droid/Brave.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/example/droids/Defender.java" beforeDir="false" afterPath="$PROJECT_DIR$/example/droid/Defender.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/example/droids/Droid.java" beforeDir="false" afterPath="$PROJECT_DIR$/example/droid/Droid.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/example/droids/RandomPower.java" beforeDir="false" afterPath="$PROJECT_DIR$/example/droid/RandomPower.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/example/droids/Tricky.java" beforeDir="false" afterPath="$PROJECT_DIR$/example/droid/Tricky.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/example/random/Rand.java" beforeDir="false" afterPath="$PROJECT_DIR$/example/random/Rand.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -32,6 +37,7 @@
       </GitPushTagMode>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="UPDATE_TYPE" value="REBASE" />
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
@@ -42,19 +48,19 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "/Users/zz/Documents/lab3pp",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/Users/zz/Documents/lab3pp&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;
   }
-}]]></component>
+}</component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -67,8 +73,25 @@
       <workItem from="1665467449055" duration="4415000" />
       <workItem from="1665486457738" duration="1000" />
       <workItem from="1665486504187" duration="1084000" />
-      <workItem from="1665488471245" duration="796000" />
+      <workItem from="1665488471245" duration="1306000" />
+      <workItem from="1665511243476" duration="2698000" />
+      <workItem from="1665854455842" duration="706000" />
     </task>
+    <task id="LOCAL-00001" summary="Lab3Droids">
+      <created>1665493532413</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1665493532413</updated>
+    </task>
+    <task id="LOCAL-00002" summary="Lab3Droids">
+      <created>1665493578341</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1665493578341</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -84,5 +107,9 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Lab3Droids" />
+    <option name="LAST_COMMIT_MESSAGE" value="Lab3Droids" />
   </component>
 </project>

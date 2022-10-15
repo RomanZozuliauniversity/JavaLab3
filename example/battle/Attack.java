@@ -1,4 +1,4 @@
-package battles;
+package battle;
 
 /**
  * class droid parameters

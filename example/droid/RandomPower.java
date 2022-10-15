@@ -1,5 +1,4 @@
-package droids;
-
+package droid;
 import random.Rand;
 /**
  * class for creating a specific type of droid

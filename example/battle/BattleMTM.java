@@ -7,18 +7,16 @@ import java.io.FileInputStream;
 import java.io.FileNotFoundException;
 import java.io.FileWriter;
 import java.io.IOException;
-import java.util.ArrayList;
-import java.util.HashMap;
-import java.util.Scanner;
+import java.util.*;
 
 /**
  * class for conducting a battle between droid groups (many to many)
  */
 public class BattleMTM {
-    private ArrayList<Droid> gr1;
-    private ArrayList<Droid> gr2;
+    private List<Droid> gr1;
+    private List<Droid> gr2;
     private Rand rnd = new Rand();
-    private ArrayList<Attack> attackSequence;
+    private List<Attack> attackSequence;
 
 
     public BattleMTM() {
@@ -63,7 +61,7 @@ public class BattleMTM {
     /**
      * method for conducting an attack
      */
-    private void groupAttack(ArrayList<Droid>firstGr, ArrayList<Droid>secondGr) {
+    private void groupAttack(List<Droid>firstGr, ArrayList<Droid>secondGr) {
         for(Droid d : firstGr) {
             if(!d.isAlive()) continue;
 
@@ -78,7 +76,7 @@ public class BattleMTM {
     /**
      * method for showing group of droids from some side
      */
-    public void showGroup(ArrayList<Droid> droids) {
+    public void showGroup(List<Droid> droids) {
         for(Droid d : droids) {
             if(d.isAlive()) {
                 System.out.print(ConsoleColors.YELLOW + " * " + d);
@@ -89,7 +87,7 @@ public class BattleMTM {
     /**
      * method for showing group of droids from some side
      */
-    public void showGroup(HashMap<String, Droid> hmDroids) {
+    public void showGroup(Map<String, Droid> hmDroids) {
 
         for(Droid d : hmDroids.values()) {
             if(d.isAlive()) {
@@ -99,7 +97,7 @@ public class BattleMTM {
         System.out.println(ConsoleColors.RESET);
     }
 
-    private void fillTourGroup(ArrayList<Droid> tourGr, ArrayList<Droid> gr, String color) {
+    private void fillTourGroup(List<Droid> tourGr, List<Droid> gr, String color) {
         tourGr.clear();
 
         for(Droid d : gr) {

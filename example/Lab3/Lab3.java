@@ -10,6 +10,7 @@ import java.io.FileNotFoundException;
 import java.io.IOException;
 import java.util.ArrayList;
 import java.util.HashMap;
+import java.util.Map;
 import java.util.Scanner;
 
 public class Lab3 {
@@ -99,7 +100,7 @@ public class Lab3 {
             btlMTM.showGroup(droids);
             return;
         }
-        HashMap<String, Droid> hmDroids = getDroidHashMap(droids);
+        Map<String, Droid> hmDroids = getDroidHashMap(droids);
         btlMTM.initBattle();
         System.out.println("Формуємо першу групу Дроїдів.");
         btlMTM.showGroup(hmDroids);
@@ -162,7 +163,7 @@ public class Lab3 {
     /**
      * method for getting droids name which will participate in a battle
      */
-    private static Droid getDroid(HashMap<String, Droid> hmDroids, Scanner sc) {
+    private static Droid getDroid(Map<String, Droid> hmDroids, Scanner sc) {
         Droid dRes = null;
         while(dRes == null) {
             System.out.println("Вкажіть імʼя Дроїда:");

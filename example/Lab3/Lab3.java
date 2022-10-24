@@ -83,7 +83,7 @@ public class Lab3 {
      */
     private static void saveBattleToFile(BattleMTM btlMTM) {
         try {
-            btlMTM.saveBattle("/Users/zz/Desktop/Lab3Data/battle.txt1");
+            btlMTM.saveBattle("/Users/zz/Desktop/Lab3Data/battle.t1xt1");
         } catch (IOException e) {
             System.out.println("Не вдалося записати файл.\n");
         }
